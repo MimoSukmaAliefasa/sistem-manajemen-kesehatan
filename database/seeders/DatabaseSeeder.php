@@ -24,6 +24,7 @@ class DatabaseSeeder extends Seeder
             ObatSeeder::class,
             DetailPeriksaSeeder::class,
             UserSeeder::class,
+            PeriksaSeeder::class,
         ]);
     }
 }
