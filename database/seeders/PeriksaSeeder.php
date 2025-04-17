@@ -22,7 +22,7 @@ class PeriksaSeeder extends Seeder
         ]);
 
         Periksa::create([
-            'id_pasien' => 3,
+            'id_pasien' => 1,
             'id_dokter' => 2,
             'tgl_periksa' => Carbon::now()->subDays(2),
             'catatan' => 'Pasien mengalami nyeri tenggorokan dan batuk.',

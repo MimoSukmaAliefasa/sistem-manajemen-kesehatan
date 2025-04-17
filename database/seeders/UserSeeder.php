@@ -24,6 +24,15 @@ class UserSeeder extends Seeder
         ]);
 
         user::create([
+            'name' => 'Dr. Kristina',
+            'alamat' => 'Jl Raya',
+            'no_hp' => '09876665423',
+            'email' => 'kristiana@gmail.com',
+            'role' => 'dokter',
+            'password' => Hash::make('password')
+        ]);
+
+        user::create([
             'name' => 'Budi',
             'alamat' => 'Jl. Raya No. 2',
             'no_hp' => '081234567891',

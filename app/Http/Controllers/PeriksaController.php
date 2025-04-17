@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class PeriksaController extends Controller
 {
-    public function index()
+    public function getPeriksaDokter()
     {
-        return view('pasien/periksa.index');
+        return view('dokter/periksa.index');
     }
 }
 
